@@ -32,6 +32,16 @@ public abstract class BasePage {
     }
 
     /**
+     * Click phần tử bằng JavaScript.
+     * Sử dụng khi Selenium click thông thường bị flaky hoặc bị che khuất trong headless mode.
+     * @param element WebElement cần click
+     */
+    protected void jsClick(WebElement element) {
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+    }
+
+    /**
      * Chờ cho element xuất hiện, xóa nội dung cũ và gõ text mới.
      * @param element WebElement cần nhập liệu
      * @param text Dữ liệu cần nhập

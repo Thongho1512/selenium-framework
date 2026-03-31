@@ -59,7 +59,7 @@ public class InventoryPage extends BasePage {
 
     public CartPage goToCart() {
         scrollToElement(cartLink);
-        waitAndClick(cartLink);
+        jsClick(cartLink);
         wait.until(org.openqa.selenium.support.ui.ExpectedConditions.urlContains("cart.html"));
         return new CartPage(driver);
     }
