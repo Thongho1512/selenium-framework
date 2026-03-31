@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-17T14:42:34 ICT" name="Selenium Framework Suite" finished-at="2026-03-17T14:43:19 ICT" duration-ms="44798">
+    <groups>
+      <group name="regression">
+        <method signature="LoginDDTTest.testBoundaryLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" name="testBoundaryLoginFromExcel" class="tests.LoginDDTTest"/>
+        <method signature="LoginDDTTest.testNegativeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" name="testNegativeLoginFromExcel" class="tests.LoginDDTTest"/>
+        <method signature="LoginDDTTest.testSmokeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" name="testSmokeLoginFromExcel" class="tests.LoginDDTTest"/>
+        <method signature="UserLoginTest.testLoginFromJson(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:tests.UserLoginTest@6f1de4c7]" name="testLoginFromJson" class="tests.UserLoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginDDTTest.testSmokeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" name="testSmokeLoginFromExcel" class="tests.LoginDDTTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-03-17T14:42:34 ICT" name="All Tests" finished-at="2026-03-17T14:43:19 ICT" duration-ms="44798">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@5c6648b0]" started-at="2026-03-17T14:43:00 ICT" name="setUp" finished-at="2026-03-17T14:43:02 ICT" duration-ms="1910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFailure()[pri:0, instance:tests.LoginTest@5c6648b0]" started-at="2026-03-17T14:43:02 ICT" name="testLoginFailure" finished-at="2026-03-17T14:43:04 ICT" duration-ms="2291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFailure -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@5c6648b0]" started-at="2026-03-17T14:43:04 ICT" name="tearDown" finished-at="2026-03-17T14:43:05 ICT" duration-ms="350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginFailure status=SUCCESS method=LoginTest.testLoginFailure()[pri:0, instance:tests.LoginTest@5c6648b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@5c6648b0]" started-at="2026-03-17T14:43:05 ICT" name="setUp" finished-at="2026-03-17T14:43:07 ICT" duration-ms="2067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginSuccess()[pri:0, instance:tests.LoginTest@5c6648b0]" started-at="2026-03-17T14:43:07 ICT" name="testLoginSuccess" finished-at="2026-03-17T14:43:08 ICT" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@5c6648b0]" started-at="2026-03-17T14:43:08 ICT" name="tearDown" finished-at="2026-03-17T14:43:09 ICT" duration-ms="1057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginSuccess status=SUCCESS method=LoginTest.testLoginSuccess()[pri:0, instance:tests.LoginTest@5c6648b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.LoginDDTTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:42 ICT" name="setUp" finished-at="2026-03-17T14:42:45 ICT" duration-ms="2550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:42 ICT" name="setUp" finished-at="2026-03-17T14:42:44 ICT" duration-ms="1822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNegativeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:44 ICT" name="testNegativeLoginFromExcel" data-provider="negativeData" finished-at="2026-03-17T14:42:46 ICT" duration-ms="1667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Sorry, this user has been locked out.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Đăng nhập user bị khóa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeLoginFromExcel -->
+        <test-method signature="testBoundaryLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:45 ICT" name="testBoundaryLoginFromExcel" data-provider="boundaryData" finished-at="2026-03-17T14:42:46 ICT" duration-ms="1330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username siêu dài]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBoundaryLoginFromExcel -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:46 ICT" name="tearDown" finished-at="2026-03-17T14:42:46 ICT" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNegativeLoginFromExcel status=SUCCESS method=LoginDDTTest.testNegativeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:46 ICT" name="setUp" finished-at="2026-03-17T14:42:48 ICT" duration-ms="1927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:46 ICT" name="tearDown" finished-at="2026-03-17T14:42:47 ICT" duration-ms="319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBoundaryLoginFromExcel status=SUCCESS method=LoginDDTTest.testBoundaryLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:47 ICT" name="setUp" finished-at="2026-03-17T14:42:48 ICT" duration-ms="1685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNegativeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:48 ICT" name="testNegativeLoginFromExcel" data-provider="negativeData" finished-at="2026-03-17T14:42:50 ICT" duration-ms="1786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sai mật khẩu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeLoginFromExcel -->
+        <test-method signature="testBoundaryLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:48 ICT" name="testBoundaryLoginFromExcel" data-provider="boundaryData" finished-at="2026-03-17T14:42:51 ICT" duration-ms="2301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Password siêu dài]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBoundaryLoginFromExcel -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:50 ICT" name="tearDown" finished-at="2026-03-17T14:42:50 ICT" duration-ms="623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNegativeLoginFromExcel status=SUCCESS method=LoginDDTTest.testNegativeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:50 ICT" name="setUp" finished-at="2026-03-17T14:42:53 ICT" duration-ms="2174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:51 ICT" name="tearDown" finished-at="2026-03-17T14:42:51 ICT" duration-ms="528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBoundaryLoginFromExcel status=SUCCESS method=LoginDDTTest.testBoundaryLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:51 ICT" name="setUp" finished-at="2026-03-17T14:42:53 ICT" duration-ms="1930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNegativeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:53 ICT" name="testNegativeLoginFromExcel" data-provider="negativeData" finished-at="2026-03-17T14:42:54 ICT" duration-ms="1600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username is required]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username rỗng]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeLoginFromExcel -->
+        <test-method signature="testBoundaryLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:53 ICT" name="testBoundaryLoginFromExcel" data-provider="boundaryData" finished-at="2026-03-17T14:42:55 ICT" duration-ms="2068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<script>alert(1)</script>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[XSS Pattern]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBoundaryLoginFromExcel -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:53 ICT" name="setUp" finished-at="2026-03-17T14:42:55 ICT" duration-ms="2029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:54 ICT" name="tearDown" finished-at="2026-03-17T14:42:55 ICT" duration-ms="788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNegativeLoginFromExcel status=SUCCESS method=LoginDDTTest.testNegativeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:55 ICT" name="setUp" finished-at="2026-03-17T14:42:57 ICT" duration-ms="2270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:55 ICT" name="tearDown" finished-at="2026-03-17T14:42:55 ICT" duration-ms="416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBoundaryLoginFromExcel status=SUCCESS method=LoginDDTTest.testBoundaryLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSmokeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:55 ICT" name="testSmokeLoginFromExcel" data-provider="smokeData" finished-at="2026-03-17T14:42:58 ICT" duration-ms="2594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inventory.html]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Đăng nhập đúng với standard_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSmokeLoginFromExcel -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:55 ICT" name="setUp" finished-at="2026-03-17T14:42:57 ICT" duration-ms="1980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNegativeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:57 ICT" name="testNegativeLoginFromExcel" data-provider="negativeData" finished-at="2026-03-17T14:42:59 ICT" duration-ms="1879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Password is required]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Password rỗng]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeLoginFromExcel -->
+        <test-method signature="testBoundaryLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:57 ICT" name="testBoundaryLoginFromExcel" data-provider="boundaryData" finished-at="2026-03-17T14:43:00 ICT" duration-ms="2312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[' OR '1'='1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SQL Injection]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBoundaryLoginFromExcel -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:58 ICT" name="tearDown" finished-at="2026-03-17T14:42:58 ICT" duration-ms="484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSmokeLoginFromExcel status=SUCCESS method=LoginDDTTest.testSmokeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:58 ICT" name="setUp" finished-at="2026-03-17T14:43:00 ICT" duration-ms="1481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:42:59 ICT" name="tearDown" finished-at="2026-03-17T14:43:00 ICT" duration-ms="1059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNegativeLoginFromExcel status=SUCCESS method=LoginDDTTest.testNegativeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:43:00 ICT" name="tearDown" finished-at="2026-03-17T14:43:00 ICT" duration-ms="375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBoundaryLoginFromExcel status=SUCCESS method=LoginDDTTest.testBoundaryLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSmokeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:43:00 ICT" name="testSmokeLoginFromExcel" data-provider="smokeData" finished-at="2026-03-17T14:43:03 ICT" duration-ms="2691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inventory.html]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Đăng nhập với problem_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSmokeLoginFromExcel -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:43:00 ICT" name="setUp" finished-at="2026-03-17T14:43:02 ICT" duration-ms="2030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNegativeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:43:02 ICT" name="testNegativeLoginFromExcel" data-provider="negativeData" finished-at="2026-03-17T14:43:04 ICT" duration-ms="1834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username is required]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cả 2 rỗng]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeLoginFromExcel -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:43:03 ICT" name="tearDown" finished-at="2026-03-17T14:43:03 ICT" duration-ms="453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSmokeLoginFromExcel status=SUCCESS method=LoginDDTTest.testSmokeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:43:03 ICT" name="setUp" finished-at="2026-03-17T14:43:04 ICT" duration-ms="1239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:43:04 ICT" name="tearDown" finished-at="2026-03-17T14:43:05 ICT" duration-ms="613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNegativeLoginFromExcel status=SUCCESS method=LoginDDTTest.testNegativeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testSmokeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:43:04 ICT" name="testSmokeLoginFromExcel" data-provider="smokeData" finished-at="2026-03-17T14:43:11 ICT" duration-ms="7030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inventory.html]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Đăng nhập với glitch_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSmokeLoginFromExcel -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginDDTTest@2a4fb17b]" started-at="2026-03-17T14:43:11 ICT" name="tearDown" finished-at="2026-03-17T14:43:12 ICT" duration-ms="325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSmokeLoginFromExcel status=SUCCESS method=LoginDDTTest.testSmokeLoginFromExcel(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@2a4fb17b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginDDTTest -->
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.CartTest@6adbc9d]" started-at="2026-03-17T14:42:34 ICT" name="setUp" finished-at="2026-03-17T14:42:39 ICT" duration-ms="4530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.CartTest@6adbc9d]" started-at="2026-03-17T14:42:35 ICT" name="setUp" finished-at="2026-03-17T14:42:39 ICT" duration-ms="4538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCartItemCount()[pri:0, instance:tests.CartTest@6adbc9d]" started-at="2026-03-17T14:42:39 ICT" name="testCartItemCount" finished-at="2026-03-17T14:42:41 ICT" duration-ms="1704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartItemCount -->
+        <test-method signature="testRemoveItem()[pri:0, instance:tests.CartTest@6adbc9d]" started-at="2026-03-17T14:42:39 ICT" name="testRemoveItem" finished-at="2026-03-17T14:42:51 ICT" duration-ms="12119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveItem -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@6adbc9d]" started-at="2026-03-17T14:42:41 ICT" name="tearDown" finished-at="2026-03-17T14:42:41 ICT" duration-ms="326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCartItemCount status=SUCCESS method=CartTest.testCartItemCount()[pri:0, instance:tests.CartTest@6adbc9d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@6adbc9d]" started-at="2026-03-17T14:42:51 ICT" name="tearDown" finished-at="2026-03-17T14:42:53 ICT" duration-ms="2081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRemoveItem status=SUCCESS method=CartTest.testRemoveItem()[pri:0, instance:tests.CartTest@6adbc9d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.UserLoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.UserLoginTest@6f1de4c7]" started-at="2026-03-17T14:43:05 ICT" name="setUp" finished-at="2026-03-17T14:43:07 ICT" duration-ms="1786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFromJson(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:tests.UserLoginTest@6f1de4c7]" started-at="2026-03-17T14:43:07 ICT" name="testLoginFromJson" data-provider="jsonUsers" finished-at="2026-03-17T14:43:09 ICT" duration-ms="1597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Đăng nhập hợp lệ JSON]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFromJson -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.UserLoginTest@6f1de4c7]" started-at="2026-03-17T14:43:09 ICT" name="tearDown" finished-at="2026-03-17T14:43:09 ICT" duration-ms="344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginFromJson status=SUCCESS method=UserLoginTest.testLoginFromJson(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:tests.UserLoginTest@6f1de4c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.UserLoginTest@6f1de4c7]" started-at="2026-03-17T14:43:09 ICT" name="setUp" finished-at="2026-03-17T14:43:11 ICT" duration-ms="1575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFromJson(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:tests.UserLoginTest@6f1de4c7]" started-at="2026-03-17T14:43:11 ICT" name="testLoginFromJson" data-provider="jsonUsers" finished-at="2026-03-17T14:43:11 ICT" duration-ms="766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[User bị khoá JSON]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFromJson -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.UserLoginTest@6f1de4c7]" started-at="2026-03-17T14:43:11 ICT" name="tearDown" finished-at="2026-03-17T14:43:12 ICT" duration-ms="228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginFromJson status=SUCCESS method=UserLoginTest.testLoginFromJson(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:tests.UserLoginTest@6f1de4c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.UserLoginTest@6f1de4c7]" started-at="2026-03-17T14:43:12 ICT" name="setUp" finished-at="2026-03-17T14:43:13 ICT" duration-ms="1771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFromJson(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:tests.UserLoginTest@6f1de4c7]" started-at="2026-03-17T14:43:13 ICT" name="testLoginFromJson" data-provider="jsonUsers" finished-at="2026-03-17T14:43:14 ICT" duration-ms="665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[User có vấn đề giao diện JSON]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFromJson -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.UserLoginTest@6f1de4c7]" started-at="2026-03-17T14:43:14 ICT" name="tearDown" finished-at="2026-03-17T14:43:14 ICT" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginFromJson status=SUCCESS method=UserLoginTest.testLoginFromJson(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:tests.UserLoginTest@6f1de4c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.UserLoginTest@6f1de4c7]" started-at="2026-03-17T14:43:14 ICT" name="setUp" finished-at="2026-03-17T14:43:16 ICT" duration-ms="1538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFromJson(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:tests.UserLoginTest@6f1de4c7]" started-at="2026-03-17T14:43:16 ICT" name="testLoginFromJson" data-provider="jsonUsers" finished-at="2026-03-17T14:43:16 ICT" duration-ms="665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username rỗng JSON]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFromJson -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.UserLoginTest@6f1de4c7]" started-at="2026-03-17T14:43:16 ICT" name="tearDown" finished-at="2026-03-17T14:43:17 ICT" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginFromJson status=SUCCESS method=UserLoginTest.testLoginFromJson(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:tests.UserLoginTest@6f1de4c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.UserLoginTest@6f1de4c7]" started-at="2026-03-17T14:43:17 ICT" name="setUp" finished-at="2026-03-17T14:43:18 ICT" duration-ms="1787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginFromJson(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:tests.UserLoginTest@6f1de4c7]" started-at="2026-03-17T14:43:18 ICT" name="testLoginFromJson" data-provider="jsonUsers" finished-at="2026-03-17T14:43:19 ICT" duration-ms="609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_pass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sai mật khẩu JSON]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFromJson -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.UserLoginTest@6f1de4c7]" started-at="2026-03-17T14:43:19 ICT" name="tearDown" finished-at="2026-03-17T14:43:19 ICT" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginFromJson status=SUCCESS method=UserLoginTest.testLoginFromJson(java.lang.String,java.lang.String,boolean,java.lang.String)[pri:0, instance:tests.UserLoginTest@6f1de4c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.UserLoginTest -->
+      <class name="tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.CheckoutTest@34a3d150]" started-at="2026-03-17T14:42:34 ICT" name="setUp" finished-at="2026-03-17T14:42:39 ICT" duration-ms="4502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutSuccess()[pri:0, instance:tests.CheckoutTest@34a3d150]" started-at="2026-03-17T14:42:39 ICT" name="testCheckoutSuccess" finished-at="2026-03-17T14:42:42 ICT" duration-ms="2919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutSuccess -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CheckoutTest@34a3d150]" started-at="2026-03-17T14:42:42 ICT" name="tearDown" finished-at="2026-03-17T14:42:42 ICT" duration-ms="322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckoutSuccess status=SUCCESS method=CheckoutTest.testCheckoutSuccess()[pri:0, instance:tests.CheckoutTest@34a3d150] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckoutTest -->
+    </test> <!-- All Tests -->
+  </suite> <!-- Selenium Framework Suite -->
+</testng-results>

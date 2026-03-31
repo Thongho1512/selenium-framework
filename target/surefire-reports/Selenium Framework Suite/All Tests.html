@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>TestNG:  All Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>All Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 17 14:42:34 ICT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>44 seconds (44798 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.LoginDDTTest.testBoundaryLoginFromExcel()'><b>testBoundaryLoginFromExcel</b><br>Test class: tests.LoginDDTTest<br>Parameters: ' OR '1'='1, secret_sauce, Epic sadface: Username and password do not match any user in this service, SQL Injection</td>
+<td></td>
+<td>2</td>
+<td>tests.LoginDDTTest@2a4fb17b</td></tr>
+<tr>
+<td title='tests.LoginDDTTest.testNegativeLoginFromExcel()'><b>testNegativeLoginFromExcel</b><br>Test class: tests.LoginDDTTest<br>Parameters: locked_out_user, secret_sauce, Epic sadface: Sorry, this user has been locked out., ??ng nh?p user b? khóa</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginDDTTest@2a4fb17b</td></tr>
+<tr>
+<td title='tests.LoginTest.testLoginSuccess()'><b>testLoginSuccess</b><br>Test class: tests.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginTest@5c6648b0</td></tr>
+<tr>
+<td title='tests.CheckoutTest.testCheckoutSuccess()'><b>testCheckoutSuccess</b><br>Test class: tests.CheckoutTest</td>
+<td></td>
+<td>2</td>
+<td>tests.CheckoutTest@34a3d150</td></tr>
+<tr>
+<td title='tests.LoginTest.testLoginFailure()'><b>testLoginFailure</b><br>Test class: tests.LoginTest</td>
+<td></td>
+<td>2</td>
+<td>tests.LoginTest@5c6648b0</td></tr>
+<tr>
+<td title='tests.UserLoginTest.testLoginFromJson()'><b>testLoginFromJson</b><br>Test class: tests.UserLoginTest<br>Parameters: locked_out_user, secret_sauce, false, User b? khoá JSON</td>
+<td></td>
+<td>0</td>
+<td>tests.UserLoginTest@6f1de4c7</td></tr>
+<tr>
+<td title='tests.CartTest.testRemoveItem()'><b>testRemoveItem</b><br>Test class: tests.CartTest</td>
+<td></td>
+<td>12</td>
+<td>tests.CartTest@6adbc9d</td></tr>
+<tr>
+<td title='tests.UserLoginTest.testLoginFromJson()'><b>testLoginFromJson</b><br>Test class: tests.UserLoginTest<br>Parameters: standard_user, secret_sauce, true, ??ng nh?p h?p l? JSON</td>
+<td></td>
+<td>1</td>
+<td>tests.UserLoginTest@6f1de4c7</td></tr>
+<tr>
+<td title='tests.UserLoginTest.testLoginFromJson()'><b>testLoginFromJson</b><br>Test class: tests.UserLoginTest<br>Parameters: problem_user, secret_sauce, true, User có v?n ?? giao di?n JSON</td>
+<td></td>
+<td>0</td>
+<td>tests.UserLoginTest@6f1de4c7</td></tr>
+<tr>
+<td title='tests.LoginDDTTest.testNegativeLoginFromExcel()'><b>testNegativeLoginFromExcel</b><br>Test class: tests.LoginDDTTest<br>Parameters: standard_user, , Epic sadface: Password is required, Password r?ng</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginDDTTest@2a4fb17b</td></tr>
+<tr>
+<td title='tests.LoginDDTTest.testBoundaryLoginFromExcel()'><b>testBoundaryLoginFromExcel</b><br>Test class: tests.LoginDDTTest<br>Parameters: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, secret_sauce, Epic sadface: Username and password do not match any user in this service, Username siêu dài</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginDDTTest@2a4fb17b</td></tr>
+<tr>
+<td title='tests.LoginDDTTest.testBoundaryLoginFromExcel()'><b>testBoundaryLoginFromExcel</b><br>Test class: tests.LoginDDTTest<br>Parameters: standard_user, bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb, Epic sadface: Username and password do not match any user in this service, Password siêu dài</td>
+<td></td>
+<td>2</td>
+<td>tests.LoginDDTTest@2a4fb17b</td></tr>
+<tr>
+<td title='tests.LoginDDTTest.testNegativeLoginFromExcel()'><b>testNegativeLoginFromExcel</b><br>Test class: tests.LoginDDTTest<br>Parameters: , , Epic sadface: Username is required, C? 2 r?ng</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginDDTTest@2a4fb17b</td></tr>
+<tr>
+<td title='tests.LoginDDTTest.testNegativeLoginFromExcel()'><b>testNegativeLoginFromExcel</b><br>Test class: tests.LoginDDTTest<br>Parameters: , secret_sauce, Epic sadface: Username is required, Username r?ng</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginDDTTest@2a4fb17b</td></tr>
+<tr>
+<td title='tests.LoginDDTTest.testBoundaryLoginFromExcel()'><b>testBoundaryLoginFromExcel</b><br>Test class: tests.LoginDDTTest<br>Parameters: <script>alert(1)</script>, secret_sauce, Epic sadface: Username and password do not match any user in this service, XSS Pattern</td>
+<td></td>
+<td>2</td>
+<td>tests.LoginDDTTest@2a4fb17b</td></tr>
+<tr>
+<td title='tests.LoginDDTTest.testNegativeLoginFromExcel()'><b>testNegativeLoginFromExcel</b><br>Test class: tests.LoginDDTTest<br>Parameters: standard_user, wrong_pass, Epic sadface: Username and password do not match any user in this service, Sai m?t kh?u</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginDDTTest@2a4fb17b</td></tr>
+<tr>
+<td title='tests.LoginDDTTest.testSmokeLoginFromExcel()'><b>testSmokeLoginFromExcel</b><br>Test class: tests.LoginDDTTest<br>Parameters: standard_user, secret_sauce, inventory.html, ??ng nh?p ?úng v?i standard_user</td>
+<td></td>
+<td>2</td>
+<td>tests.LoginDDTTest@2a4fb17b</td></tr>
+<tr>
+<td title='tests.LoginDDTTest.testSmokeLoginFromExcel()'><b>testSmokeLoginFromExcel</b><br>Test class: tests.LoginDDTTest<br>Parameters: problem_user, secret_sauce, inventory.html, ??ng nh?p v?i problem_user</td>
+<td></td>
+<td>2</td>
+<td>tests.LoginDDTTest@2a4fb17b</td></tr>
+<tr>
+<td title='tests.LoginDDTTest.testSmokeLoginFromExcel()'><b>testSmokeLoginFromExcel</b><br>Test class: tests.LoginDDTTest<br>Parameters: performance_glitch_user, secret_sauce, inventory.html, ??ng nh?p v?i glitch_user</td>
+<td></td>
+<td>7</td>
+<td>tests.LoginDDTTest@2a4fb17b</td></tr>
+<tr>
+<td title='tests.CartTest.testCartItemCount()'><b>testCartItemCount</b><br>Test class: tests.CartTest</td>
+<td></td>
+<td>1</td>
+<td>tests.CartTest@6adbc9d</td></tr>
+<tr>
+<td title='tests.UserLoginTest.testLoginFromJson()'><b>testLoginFromJson</b><br>Test class: tests.UserLoginTest<br>Parameters: , secret_sauce, false, Username r?ng JSON</td>
+<td></td>
+<td>0</td>
+<td>tests.UserLoginTest@6f1de4c7</td></tr>
+<tr>
+<td title='tests.UserLoginTest.testLoginFromJson()'><b>testLoginFromJson</b><br>Test class: tests.UserLoginTest<br>Parameters: standard_user, wrong_pass, false, Sai m?t kh?u JSON</td>
+<td></td>
+<td>0</td>
+<td>tests.UserLoginTest@6f1de4c7</td></tr>
+</table><p>
+</body>
+</html>
