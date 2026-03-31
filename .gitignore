@@ -1,0 +1,19 @@
+# Maven build
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Test output / Screenshots
+screenshots/
+target/screenshots/
+test-output/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db

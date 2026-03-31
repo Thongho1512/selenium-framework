@@ -20,8 +20,12 @@ public abstract class BaseTest {
     @Parameters({"browser", "env"})
     @BeforeMethod(alwaysRun = true)
     public void setUp(@Optional("chrome") String browser, @Optional("dev") String env) {
-        System.setProperty("env", env);
-        WebDriver driver = DriverFactory.createDriver(browser);
+        // Ưu tiên lấy từ Command Line (-Dbrowser=..., -Denv=...)
+        String actualBrowser = System.getProperty("browser", browser);
+        String actualEnv = System.getProperty("env", env);
+        
+        System.setProperty("env", actualEnv);
+        WebDriver driver = DriverFactory.createDriver(actualBrowser);
         driver.manage().window().maximize();
         
         int implicitWait = Integer.parseInt(System.getProperty("implicit.wait", "5"));
