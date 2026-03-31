@@ -11,6 +11,11 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
+    strategy:
+      fail-fast: false
+      matrix:
+        browser: [chrome, firefox]
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -25,16 +30,14 @@ jobs:
     - name: Build with Maven
       run: mvn clean install -DskipTests
 
-    - name: Run Sequential Selenium Tests (Chrome then Firefox)
-      run: |
-        mvn test -Denv=staging -Dbrowser=chrome
-        mvn test -Denv=staging -Dbrowser=firefox
+    - name: Run Selenium Tests (${{ matrix.browser }} - Headless)
+      run: mvn test -Denv=staging -Dbrowser=${{ matrix.browser }}
       
     - name: Upload Artifacts on Failure
       if: failure()
       uses: actions/upload-artifact@v4
       with:
-        name: test-results-sequential
+        name: test-results-${{ matrix.browser }}
         path: |
           target/surefire-reports/
           target/screenshots/

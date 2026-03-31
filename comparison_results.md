@@ -4,7 +4,7 @@ Dưới đây là bảng so sánh hiệu suất giữa chạy tuần tự (Seque
 
 | Hình thức chạy | Trình duyệt thực thi | Tổng thời gian (Total Duration) | Ghi chú |
 | :--- | :--- | :--- | :--- |
-| **Tuần tự (Sequential)** | Chrome -> Firefox | ... phút ... giây | Chạy trong cùng 1 job, 1 runner |
+| **Tuần tự (Sequential)** | Chrome -> Firefox | **~1 phút 41 giây** | Chrome (36s) + Firefox (65s) |
 | **Song song (Matrix)** | Chrome & Firefox | ... phút ... giây | Chia làm 2 job chạy đồng thời |
 
 ### 1. Phân tích kết quả:
