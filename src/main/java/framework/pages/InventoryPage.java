@@ -30,7 +30,7 @@ public class InventoryPage extends BasePage {
 
     public InventoryPage addFirstItemToCart() {
         WebElement btn = wait.until(org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable(By.cssSelector(".inventory_item:first-child button")));
-        waitAndClick(btn);
+        jsClick(btn);
         wait.until(org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated(By.className("shopping_cart_badge")));
         return this;
     }

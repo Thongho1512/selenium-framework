@@ -33,7 +33,7 @@ public class CartPage extends BasePage {
     public CartPage removeFirstItem() {
         if (isElementVisible(By.cssSelector(".cart_button"))) {
             WebElement btn = wait.until(org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable(By.cssSelector(".cart_button")));
-            btn.click();
+            jsClick(btn);
             wait.until(org.openqa.selenium.support.ui.ExpectedConditions.invisibilityOfElementLocated(By.cssSelector(".cart_button")));
         }
         return this;
@@ -50,7 +50,7 @@ public class CartPage extends BasePage {
     }
 
     public CheckoutPage goToCheckout() {
-        waitAndClick(checkoutButton);
+        jsClick(checkoutButton);
         return new CheckoutPage(driver);
     }
 }

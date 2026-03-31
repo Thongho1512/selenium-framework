@@ -37,13 +37,13 @@ public class CheckoutPage extends BasePage {
         waitAndType(firstNameField, firstName);
         waitAndType(lastNameField, lastName);
         waitAndType(postalCodeField, postalCode);
-        waitAndClick(continueButton);
+        jsClick(continueButton);
         wait.until(org.openqa.selenium.support.ui.ExpectedConditions.urlContains("step-two"));
         return this;
     }
 
     public void finishCheckout() {
-        waitAndClick(finishButton);
+        jsClick(finishButton);
     }
 
     public boolean isCheckoutComplete() {
