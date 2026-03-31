@@ -29,14 +29,15 @@ public class InventoryPage extends BasePage {
     }
 
     public InventoryPage addFirstItemToCart() {
-        WebElement btn = wait.until(org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable(By.id("add-to-cart-sauce-labs-backpack")));
-        btn.click();
+        WebElement btn = wait.until(org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable(By.cssSelector(".inventory_item:first-child button")));
+        waitAndClick(btn);
         wait.until(org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated(By.className("shopping_cart_badge")));
         return this;
     }
     
     public InventoryPage addItemByName(String name) {
         for (WebElement item : inventoryItems) {
+            scrollToElement(item);
             if (item.findElement(By.cssSelector(".inventory_item_name")).getText().equals(name)) {
                 waitAndClick(item.findElement(By.tagName("button")));
                 break;
@@ -57,6 +58,7 @@ public class InventoryPage extends BasePage {
     private WebElement cartLink;
 
     public CartPage goToCart() {
+        scrollToElement(cartLink);
         waitAndClick(cartLink);
         wait.until(org.openqa.selenium.support.ui.ExpectedConditions.urlContains("cart.html"));
         return new CartPage(driver);

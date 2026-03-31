@@ -20,6 +20,6 @@ public class LoginTest extends BaseTest {
         loginPage.loginExpectingFailure("standard_user", "wrong_pass");
         Assert.assertTrue(loginPage.isErrorDisplayed(), "Thông báo lỗi không hiển thị");
         Assert.assertEquals(loginPage.getErrorMessage(),
-                "Cố ý sai để test pipeline");
+                "Epic sadface: Username and password do not match any user in this service");
     }
 }
