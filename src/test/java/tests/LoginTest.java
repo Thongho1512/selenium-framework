@@ -18,8 +18,8 @@ public class LoginTest extends BaseTest {
     public void testLoginFailure() {
         LoginPage loginPage = new LoginPage(getDriver());
         loginPage.loginExpectingFailure("standard_user", "wrong_pass");
-        Assert.assertTrue(loginPage.isErrorDisplayed(), "Cố ý sai để test pipeline");
+        Assert.assertTrue(loginPage.isErrorDisplayed(), "Thông báo lỗi không hiển thị");
         Assert.assertEquals(loginPage.getErrorMessage(),
-                "Epic sadface: Username and password do not match any user in this service");
+                "Cố ý sai để test pipeline");
     }
 }
