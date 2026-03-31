@@ -17,7 +17,7 @@ public class DriverFactory {
                 WebDriverManager.firefoxdriver().setup();
                 FirefoxOptions autoFirefoxOptions = new FirefoxOptions();
                 if ("true".equalsIgnoreCase(System.getenv("CI"))) {
-                    autoFirefoxOptions.addArguments("--headless");
+                    autoFirefoxOptions.addArguments("-headless");
                 }
                 driver = new FirefoxDriver(autoFirefoxOptions);
                 break;
