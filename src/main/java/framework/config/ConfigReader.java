@@ -29,4 +29,14 @@ public class ConfigReader {
     public int getExplicitWait(){ return Integer.parseInt(props.getProperty("explicit.wait","15")); }
     public int getRetryCount() { return Integer.parseInt(props.getProperty("retry.count","1")); }
     public String getScreenshotPath(){ return props.getProperty("screenshot.path", "target/screenshots/"); }
+
+    public String getUsername() {
+        String envUser = System.getenv("SAUCEDEMO_USERNAME");
+        return (envUser != null && !envUser.isEmpty()) ? envUser : props.getProperty("saucedemo.username");
+    }
+
+    public String getPassword() {
+        String envPass = System.getenv("SAUCEDEMO_PASSWORD");
+        return (envPass != null && !envPass.isEmpty()) ? envPass : props.getProperty("saucedemo.password");
+    }
 }

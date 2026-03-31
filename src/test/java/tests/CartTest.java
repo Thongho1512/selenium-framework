@@ -11,7 +11,10 @@ public class CartTest extends BaseTest {
     @Test
     public void testCartItemCount() {
         LoginPage loginPage = new LoginPage(getDriver());
-        InventoryPage invPage = loginPage.login("standard_user", "secret_sauce");
+        InventoryPage invPage = loginPage.login(
+                framework.config.ConfigReader.getInstance().getUsername(),
+                framework.config.ConfigReader.getInstance().getPassword()
+        );
         CartPage cartPage = invPage.addFirstItemToCart().goToCart();
         
         Assert.assertEquals(cartPage.getItemCount(), 1, "Số lượng item trong giỏ không đúng");
@@ -20,7 +23,10 @@ public class CartTest extends BaseTest {
     @Test
     public void testRemoveItem() {
         LoginPage loginPage = new LoginPage(getDriver());
-        InventoryPage invPage = loginPage.login("standard_user", "secret_sauce");
+        InventoryPage invPage = loginPage.login(
+                framework.config.ConfigReader.getInstance().getUsername(),
+                framework.config.ConfigReader.getInstance().getPassword()
+        );
         CartPage cartPage = invPage.addFirstItemToCart().goToCart();
         
         cartPage.removeFirstItem();

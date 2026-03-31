@@ -10,7 +10,10 @@ public class LoginTest extends BaseTest {
     @Test
     public void testLoginSuccess() {
         LoginPage loginPage = new LoginPage(getDriver());
-        InventoryPage inventoryPage = loginPage.login("standard_user", "secret_sauce");
+        InventoryPage inventoryPage = loginPage.login(
+                framework.config.ConfigReader.getInstance().getUsername(),
+                framework.config.ConfigReader.getInstance().getPassword()
+        );
         Assert.assertTrue(inventoryPage.isLoaded(), "Trang inventory chưa load");
     }
 

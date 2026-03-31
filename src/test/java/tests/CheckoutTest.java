@@ -15,7 +15,10 @@ public class CheckoutTest extends BaseTest {
     @Test
     public void testCheckoutSuccess() {
         LoginPage loginPage = new LoginPage(getDriver());
-        InventoryPage invPage = loginPage.login("standard_user", "secret_sauce");
+        InventoryPage invPage = loginPage.login(
+                framework.config.ConfigReader.getInstance().getUsername(),
+                framework.config.ConfigReader.getInstance().getPassword()
+        );
         CartPage cartPage = invPage.addFirstItemToCart().goToCart();
         CheckoutPage checkoutPage = cartPage.goToCheckout();
         
